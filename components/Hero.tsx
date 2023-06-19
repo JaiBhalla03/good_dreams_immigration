@@ -2,7 +2,7 @@ import React from 'react';
 import heroImage1 from '../images/heroImage1.jpg';
 import heroImage2 from '../images/heroImage2.jpg';
 import heroImage3 from '../images/heroImage3.jpg';
-import Image from 'next/Image';
+import Image from 'next/image';
 
 const Hero = () => {
     return (
