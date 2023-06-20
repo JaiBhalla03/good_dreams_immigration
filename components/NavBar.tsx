@@ -53,7 +53,7 @@ const NavBar = () => {
 
     return (
         <nav
-            className={`bg-white z-10 px-12 flex justify-between h-18 duration-700 transition-all w-full ${
+            className={`fixed bg-white z-10 px-12 flex justify-between h-18 duration-700 transition-all w-full ${
                 hasScrolled ? 'shadow-xl' : ''
             } ${isScrolled ? '-translate-y-full opacity-0' : 'translate-y-0 opacity-100 sticky top-0'}`}
         >
