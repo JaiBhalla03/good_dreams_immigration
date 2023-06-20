@@ -39,19 +39,19 @@ const Why = () => {
     }
     const iconVariants1 = {
         visible: {opacity: 1, y: 0, transition: {duration: 1}},
-        hidden: {opacity: 0, y: -100},
+        hidden: {opacity: 0, y: -1000},
     }
     const iconVariants2 = {
         visible: {opacity: 1, y: 0, transition: {duration: 2}},
-        hidden: {opacity: 0, y: -100},
+        hidden: {opacity: 0, y: -1000},
     }
     const iconVariants3 = {
         visible: {opacity: 1, y: 0, transition: {duration: 3}},
-        hidden: {opacity: 0, y: -100},
+        hidden: {opacity: 0, y: -1000},
     }
     const iconVariants4 = {
         visible: {opacity: 1, y: 0, transition: {duration: 4}},
-        hidden: {opacity: 0, y: -100},
+        hidden: {opacity: 0, y: -1000},
     }
 
     useEffect(() => {
@@ -84,7 +84,7 @@ const Why = () => {
                         <div className={'flex w-full gap-4 items-center'}>
                             <motion.div
                                 animate={controls}
-                                initials={'hidden'}
+                                initial={'hidden'}
                                 variants={iconVariants1}
                             >
                                 <MdHandshake size={45} className={'text-red-800'}/>
@@ -104,7 +104,7 @@ const Why = () => {
                         <div className={'flex w-full gap-4 items-center'}>
                             <motion.div
                                 animate={controls}
-                                initials={'hidden'}
+                                initial={'hidden'}
                                 variants={iconVariants2}
                             >
                                 <RiCustomerService2Fill size={45} className={'text-red-800'}/>
@@ -124,7 +124,7 @@ const Why = () => {
                         <div className={'flex w-full gap-4 items-center'}>
                             <motion.div
                                 animate={controls}
-                                initials={'hidden'}
+                                initial={'hidden'}
                                 variants={iconVariants3}
                             >
                                 <IoOptions size={45} className={'text-red-800'}/>
@@ -143,7 +143,7 @@ const Why = () => {
                         <div className={'flex w-full gap-4 items-center'}>
                             <motion.div
                                 animate={controls}
-                                initials={'hidden'}
+                                initial={'hidden'}
                                 variants={iconVariants4}
                             >
                                 <AiFillReconciliation size={45} className={'text-red-800'}/>
