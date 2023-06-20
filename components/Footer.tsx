@@ -10,14 +10,14 @@ import {ImLocation2} from "react-icons/im";
 const Footer = () => {
     return (
         <div className={'h-1/2 text-gray-900'}>
-            <div className={'flex justify-around w-full bg-red-900 py-8 px-2 md:px-16'}>
-                <div className={'flex gap-8  items-center justify-around'}>
-                    <div className={'h-48 flex flex-col justify-center'}>
-                        <div className={'p-2 shadow shadow-md shadow-black rounded-md bg-gray-100'}>
+            <div className={'flex flex-col md:flex-row justify-between w-full bg-red-800 py-8 px-2 md:px-16'}>
+                <div className={'flex flex-col md:flex-row gap-2 md:gap-8 items-center justify-between'}>
+                    <div className={'h-48 w-full md:w-auto flex flex-col justify-center'}>
+                        <div className={'p-2 shadow shadow-lg flex items-center justify-center shadow-black rounded-md bg-gray-100'}>
                             <Image src={logo} width={300} alt={''}/>
                         </div>
                     </div>
-                    <div className={'p-2 shadow shadow-md shadow-black rounded-md bg-gray-100'}>
+                    <div className={'p-2 flex md:flex-col w-full md:w-auto shadow shadow-lg shadow-black rounded-md bg-gray-100'}>
                         <div className={'h-36 flex flex-col justify-center gap-2 items-center border-b border-gray-400'}>
                             <div className={'flex items-center justify-center text-lg font-semibold text-gray-900'}>RCIC</div>
                             <div className={''}>
@@ -32,7 +32,7 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-                <div className={'flex flex-col justify-around bg-gray-100 rounded-md shadow shadow-md shadow-black py-4 px-8 w-96'}>
+                <div className={'flex flex-col justify-around bg-gray-100 rounded-md shadow shadow-lg shadow-black py-4 px-8 mt-8 md:mt-0 w-full md:w-96'}>
                     <h1 className={'text-3xl font-bold'}>Contact Details</h1>
                     <div className={'text-lg border-b border-gray-500 pb-2 font-semibold'}>
                         Sandeep Khangura (RCIC)
@@ -51,9 +51,10 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <div className={'py-4 px-8 bg-gray-800 flex justify-between text-gray-200 font-normal shadow-inner shadow-lg shadow-gray-500 border border-gray-600'}>
-                <div>
-                    Copyright © <i className={'font-semibold cursor-pointer hover:underline'}>Good Dream Immigration</i>. Developed by Jai Bhalla
+            <div className={'py-4 px-1 md:px-8 bg-gray-800 flex flex-col md:flex-row items-center justify-between text-gray-200 font-normal shadow-inner shadow-lg shadow-gray-500 border border-gray-600'}>
+                <div className={'flex gap-2'}>
+                    Copyright © <i className={'font-semibold cursor-pointer hover:underline'}>Good Dream Immigration</i>.
+                    <p className={'hidden md:block'}>Developed by Jai Bhalla</p>
                 </div>
                 <div className={'font-semibold flex gap-1'}>
                     <div className={'non-italic cursor-pointer hover:underline'}>Privacy Policy</div>  /  <div className={'non-italic cursor-pointer hover:underline'}>Terms & Condition</div>

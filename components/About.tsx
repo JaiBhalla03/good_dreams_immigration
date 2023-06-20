@@ -29,24 +29,24 @@ const About = () => {
         }
     }, [controls, inView]);
     return (
-        <div ref={ref} className={'bg-gray-100 h-screen flex px-20 w-full gap-4 justify-between py-16'}>
-           <div className={'pt-6 px-8 bg-white pb-8 flex gap-8'}>
-               <div className={'w-1/2 flex flex-col justify-between'}>
+        <div ref={ref} className={'bg-gray-100 md:h-screen flex px-2 md:px-20 w-full gap-4 justify-between py-4 md:py-16'}>
+           <div className={'pt-2 md:pt-6 px-2 md:px-8 bg-white pb-8 flex flex-col md:flex-row gap-8'}>
+               <div className={'w-full md:w-1/2 flex flex-col gap-2 md:gap-0 justify-between'}>
                    <motion.h1
                        animate={controls}
                        variants={aboutHeadingVariants}
                        initial={'hidden'}
-                       className={'relative text-4xl font-bold text-red-800'}
+                       className={'relative text-3xl md:text-4xl font-semibold md:font-bold text-red-800'}
                    >
                        Good Dreams Immigration
-                       <span className={'absolute -bottom-2 start-0 w-1/3 bg-red-400 h-1 animate-pulse'}></span>
+                       <span className={'absolute -bottom-2 start-0 w-1/3 bg-red-400 h-[2px] md:h-1 animate-pulse'}></span>
                    </motion.h1>
 
                    <motion.p
                        animate={controls}
                        variants={textVariants}
                        initial={'hidden'}
-                       className={'text-[1.2rem] font-normal text-gray-800'}
+                       className={'text-[1rem] md:text-[1.2rem] font-normal text-gray-800'}
                    >
                        Good Dreams Immigration Solutions Inc. is a trustworthy organization providing immigration services across the globe. We are
                        committed to provide honest and result-oriented immigration services to all our clients from Canada and overseas. Blue Sphere
@@ -61,9 +61,9 @@ const About = () => {
                    animate={controls}
                    initial={'hidden'}
                    variants={imageVariants}
-                   className={'h-full w-1/2 rounded-md flex items-center'}
+                   className={'h-full w-full md:w-1/2 rounded-md flex items-center'}
                >
-                   <Image src={aboutHome} alt={''} className={'shadow shadow-md shadow-gray-500 w-full object-contain rounded-md'}/>
+                   <Image src={aboutHome} alt={''} className={'shadow shadow-lg shadow-gray-500 w-full object-contain rounded-md'}/>
                </motion.div>
            </div>
 

@@ -19,7 +19,7 @@ const Countdown = () => {
         }
     }, [controls, inView]);
     return (
-        <div ref={ref} className={'h-96'}>
+        <div ref={ref} className={'h-screen md:h-96'}>
             <motion.div
                 animate={controls}
                 initial={'hidden'}
@@ -27,24 +27,24 @@ const Countdown = () => {
                 className={'h-full relative'}>
                 <Image src={countdownImage} alt={''} className={'object-cover h-full w-full'} />
                 <div className={'absolute top-0 h-full w-full bg-black bg-opacity-[50%]'}>
-                    <div className={'flex justify-around text-white px-10 pt-28'}>
-                        <div className={'flex flex-col items-center justify-center gap-2'}>
+                    <div className={'flex flex-col gap-4 md:gap-0 md:flex-row justify-around text-white px-10 pt-10 md:pt-28'}>
+                        <div className={'flex flex-col items-center justify-center gap-1 md:gap-2'}>
                             <div className={'text-4xl font-bold'}>2000+</div>
                             <div className={'text-2xl font-semibold'}>Happy Client</div>
                         </div>
-                        <div className={'flex flex-col items-center justify-center gap-2'}>
+                        <div className={'flex flex-col items-center justify-center gap-1 md:gap-2'}>
                             <div className={'text-4xl font-bold'}>100%</div>
                             <div className={'text-2xl font-semibold'}>Satisfaction</div>
                         </div>
-                        <div className={'flex flex-col items-center justify-center gap-2'}>
+                        <div className={'flex flex-col items-center justify-center gap-1 md:gap-2'}>
                             <div className={'text-4xl font-bold'}>4.5*</div>
                             <div className={'text-2xl font-semibold'}>Reviews</div>
                         </div>
-                        <div className={'flex flex-col items-center justify-center gap-2'}>
+                        <div className={'flex flex-col items-center justify-center gap-1 md:gap-2'}>
                             <div className={'text-4xl font-bold'}>700+</div>
                             <div className={'text-2xl font-semibold'}>Students</div>
                         </div>
-                        <div className={'flex flex-col items-center justify-center gap-2'}>
+                        <div className={'flex flex-col items-center justify-center gap-1 md:gap-2'}>
                             <div className={'text-4xl font-bold'}>180+</div>
                             <div className={'text-2xl font-semibold'}>Universities</div>
                         </div>
