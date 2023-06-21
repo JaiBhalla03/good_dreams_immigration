@@ -12,7 +12,7 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
   return (
     <main
-      className={`w-full relative`}
+      className={`w-full relative overflow-x-hidden`}
     >
       <Hero/>
       <About/>
