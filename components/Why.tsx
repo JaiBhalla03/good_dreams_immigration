@@ -60,7 +60,7 @@ const Why = () => {
         }
     }, [controls, inView]);
     return (
-        <div ref={ref} className={'bg-gray-100 flex px-2 md:px-20 w-full gap-4 justify-between py-4 md:py-16'}>
+        <div ref={ref} className={'overflow-x-hidden bg-gray-100 flex px-2 md:px-20 w-full gap-4 justify-between py-4 md:py-16'}>
             <div className={'pt-2 md:pt-6 px-2 md:px-8 bg-white pb-8 flex flex-col-reverse md:flex-row gap-8'}>
                 <motion.div
                     animate={controls}

@@ -31,7 +31,7 @@ const Hero = () => {
         </motion.button>
     }
     return (
-        <div className={'h-screen overflow-x-hidden'}>
+        <div className={'overflow-x-hidden'}>
             <Fade duration={3000} {...properties}>
                 <div className="each-slide relative">
                     <Image src={heroImage1} alt={''} className={'w-full object-cover h-full'}/>

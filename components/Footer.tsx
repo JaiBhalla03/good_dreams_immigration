@@ -9,7 +9,7 @@ import {ImLocation2} from "react-icons/im";
 
 const Footer = () => {
     return (
-        <div className={'h-1/2 text-gray-900'}>
+        <div className={'overflow-x-hidden h-1/2 text-gray-900'}>
             <div className={'flex flex-col md:flex-row justify-between w-full bg-red-800 py-8 px-2 md:px-16'}>
                 <div className={'flex flex-col md:flex-row gap-2 md:gap-8 items-center justify-between'}>
                     <div className={'h-48 w-full md:w-auto flex flex-col justify-center'}>
