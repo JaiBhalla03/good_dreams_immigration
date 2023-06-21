@@ -39,7 +39,7 @@ const AboutCards = () => {
                 variants={cardVariants1}
             >
                 <Aboutcard
-                    icon={<FaCcVisa/>}
+                    icon={FaCcVisa}
                     heading={'VISA'}
                     description={'Over 10 million people visit Canada to take advantage of the many opportunities. Specific entry ' +
                         'requirements will apply depending on where you live and the reason for your visit.'}
@@ -51,7 +51,7 @@ const AboutCards = () => {
                 variants={cardVariants2}
             >
                 <Aboutcard
-                    icon={<MdFlight/>}
+                    icon={MdFlight}
                     heading={'IMMIGRATION'}
                     description={'Immigration procedures include express entry, business entry, and so on. Find out whether you are ' +
                         'eligible to immigrate in one of these classes.'}
@@ -63,7 +63,7 @@ const AboutCards = () => {
                 variants={cardVariants3}
             >
                 <Aboutcard
-                    icon={<HiClipboardDocumentList/>}
+                    icon={HiClipboardDocumentList}
                     heading={'CITIZENSHIP'}
                     description={'If you meet all of the requirements for citizenship, you are eligible to take the citizenship test. ' +
                         'As a Canadian citizen, you have certain rights and benefits.'}
