@@ -42,8 +42,8 @@ const Hero = () => {
                             We will help you ease your immigration process
                         </p>
                             <div className={'flex gap-8'}>
-                                <Link className={'p-3 text-xl text-white bg-red-800 hover:bg-red-900 duration-300 transition-all'} href={'/'}>Our Services</Link>
-                                <Link className={'p-3 text-xl text-white bg-red-800 hover:bg-red-900 duration-300 transition-all'} href={'/'}>Contact Us</Link>
+                                <Link className={'p-3 text-xl text-white bg-red-800 hover:bg-red-900 duration-300 transition-all'} href={'/services'}>Our Services</Link>
+                                <Link className={'p-3 text-xl text-white bg-red-800 hover:bg-red-900 duration-300 transition-all'} href={'/contact'}>Contact Us</Link>
                             </div>
                         </div>
 
@@ -58,8 +58,8 @@ const Hero = () => {
                             We provide professional Canadian Immigration Consultancy Services
                         </p>
                             <div className={'flex gap-8'}>
-                                <Link className={'p-3 text-xl text-white bg-red-800 hover:bg-red-900 duration-300 transition-all'} href={'/'}>Our Services</Link>
-                                <Link className={'p-3 text-xl text-white bg-red-800 hover:bg-red-900 duration-300 transition-all'} href={'/'}>Contact Us</Link>
+                                <Link className={'p-3 text-xl text-white bg-red-800 hover:bg-red-900 duration-300 transition-all'} href={'/services'}>Our Services</Link>
+                                <Link className={'p-3 text-xl text-white bg-red-800 hover:bg-red-900 duration-300 transition-all'} href={'/contact'}>Contact Us</Link>
                             </div>
                         </div>
 
@@ -74,8 +74,8 @@ const Hero = () => {
                             Leading Visa and Immigration Consultancy
                         </p>
                             <div className={'flex gap-8'}>
-                                <Link className={'p-3 text-xl text-white bg-red-800 hover:bg-red-900 duration-300 transition-all'} href={'/'}>Our Services</Link>
-                                <Link className={'p-3 text-xl text-white bg-red-800 hover:bg-red-900 duration-300 transition-all'} href={'/'}>Contact Us</Link>
+                                <Link className={'p-3 text-xl text-white bg-red-800 hover:bg-red-900 duration-300 transition-all'} href={'/services'}>Our Services</Link>
+                                <Link className={'p-3 text-xl text-white bg-red-800 hover:bg-red-900 duration-300 transition-all'} href={'/contact'}>Contact Us</Link>
                             </div>
                         </div>
 

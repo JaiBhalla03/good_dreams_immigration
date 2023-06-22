@@ -1,18 +1,14 @@
-import React, {useEffect, useRef, useState} from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { RiSearchLine } from 'react-icons/ri';
 import { FiMenu, FiX } from 'react-icons/fi';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
-import Image from "next/image";
-import logoImage from '../images/logo.png'
+import Image from 'next/image';
+import logoImage from '../images/logo.png';
 
 const NavBar = () => {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-    const [isEventsOpen, setIsEventsOpen] = useState(false);
-    const [isJobsOpen, setIsJobsOpen] = useState(false);
     const [hasScrolled, setHasScrolled] = useState(false);
-    const [isScrolled, setIsScrolled] = useState(false);
-    const prevScrollY = useRef(0);
 
     useEffect(() => {
         const handleScroll = () => {
@@ -32,35 +28,20 @@ const NavBar = () => {
         };
     }, []);
 
-    useEffect(() => {
-        const handleScroll = () => {
-            const currentScrollY = window.scrollY;
-            if (currentScrollY > prevScrollY.current) {
-                setIsScrolled(true);
-            } else {
-                setIsScrolled(false);
-            }
-            prevScrollY.current = currentScrollY;
-        };
-
-        window.addEventListener('scroll', handleScroll, { passive: true });
-        return () => window.removeEventListener('scroll', handleScroll);
-    }, []);
-
     const handleMobileMenuToggle = () => {
         setIsMobileMenuOpen(!isMobileMenuOpen);
     };
 
     return (
         <nav
-            className={`fixed w-full bg-white z-10 px-2 md:px-12 flex justify-between h-18 duration-500 transition-all w-full ${
+            className={`z-20 sticky top-0 w-full bg-white z-10 px-2 md:px-12 flex justify-between h-18 duration-500 transition-all w-full ${
                 hasScrolled ? 'shadow-xl' : ''
-            } ${isScrolled ? '-translate-y-full opacity-0' : 'translate-y-0 opacity-100 sticky top-0'}`}
+            }`}
         >
             <div className="flex w-full h-full justify-between">
                 <div className="flex items-center text-2xl cursor-pointer">
                     <Link href="/" className={'w-40 md:w-44'}>
-                        <Image src={logoImage} alt={''} className={'h-full'}/>
+                        <Image src={logoImage} alt={''} className={'h-full'} />
                     </Link>
                 </div>
                 <ul className="hidden md:flex gap-8 font-bold text-gray-600 text-lg">

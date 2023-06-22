@@ -4,14 +4,17 @@ import Image from "next/image";
 import Link from "next/link";
 
 const ContactCard = () => {
+    const handlePhoneClick = () => {
+        window.open('tel:+16046790308');
+    };
     return (
         <div className={'w-full relative'}>
             <Image src={contactCardImage} alt={''} className={'w-full h-72 object-cover'}/>
             <div className={'flex items-center justify-center absolute top-0 bg-black w-full h-full bg-opacity-[50%]'}>
                 <div className={'flex flex-col items-center gap-4 text-white text-xl font-semibold'}>
-                    <div className={'flex justify-center'}>
+                    <div className={'flex flex-col items-center justify-center'}>
                         Appointment Service call us<br/>
-                        + 1 778 792 2000
+                        <i onClick={handlePhoneClick} className={'cursor-pointer hover:underline'}>+1 604 679 0308</i>
                     </div>
                     <div className={'flex justify-center'}>
                         Monday - Saturday from<br/>
