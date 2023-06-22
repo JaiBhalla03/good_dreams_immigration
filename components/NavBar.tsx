@@ -31,6 +31,9 @@ const NavBar = () => {
     const handleMobileMenuToggle = () => {
         setIsMobileMenuOpen(!isMobileMenuOpen);
     };
+    const handleClick = ()=>{
+        setIsMobileMenuOpen(false);
+    }
 
     return (
         <nav
@@ -73,19 +76,19 @@ const NavBar = () => {
             </div>
             {isMobileMenuOpen && (
                 <ul className="pt-10 w-full bg-white text-4xl italic absolute top-16 left-0 w-full h-screen shadow-lg flex flex-col items-center">
-                    <Link href={'/'} className="relative cursor-pointer transition-all flex items-center">
+                    <Link onClick={handleClick} href={'/'} className="relative cursor-pointer transition-all flex items-center">
                         <span>Home</span>
                     </Link>
-                    <Link href={'/services'} className="relative cursor-pointer transition-all flex items-center">
+                    <Link onClick={handleClick} href={'/services'} className="relative cursor-pointer transition-all flex items-center">
                         <span>Services</span>
                     </Link>
-                    <Link href={'/about'} className="relative cursor-pointer transition-all flex items-center">
+                    <Link onClick={handleClick} href={'/about'} className="relative cursor-pointer transition-all flex items-center">
                         <span>About Us</span>
                     </Link>
-                    <Link href={'resources'} className="relative cursor-pointer transition-all flex items-center">
+                    <Link onClick={handleClick} href={'resources'} className="relative cursor-pointer transition-all flex items-center">
                         <span>Resources</span>
                     </Link>
-                    <Link href={'contact'} className="relative cursor-pointer transition-all flex items-center">
+                    <Link onClick={handleClick} href={'contact'} className="relative cursor-pointer transition-all flex items-center">
                         <span>Contact Us</span>
                     </Link>
                 </ul>
