@@ -19,7 +19,7 @@ const SideLink = () => {
                 <Link className={'flex items-center justify-center p-4 text-xl border-b hover:bg-red-800 hover:text-white duration-300 transition-all border-gray-500 text-gray-500'} href={'lmia'}>LMIA</Link>
                 <Link className={'flex items-center justify-center p-4 text-xl border-b hover:bg-red-800 hover:text-white duration-300 transition-all border-gray-500 text-gray-500'} href={'business-visitor'}>Business Visitor</Link>
                 <Link className={'flex items-center justify-center p-4 text-xl border-b hover:bg-red-800 hover:text-white duration-300 transition-all border-gray-500 text-gray-500'} href={'denied-entry'}>Denied Entry</Link>
-                <Link className={'flex items-center justify-center p-4 text-xl border-b hover:bg-red-800 hover:text-white duration-300 transition-all border-gray-500 text-gray-500'} href={'extensions-and-restorations'}>Extensions and Restoration</Link>
+                <Link className={'flex items-center justify-center p-4 text-xl border-b hover:bg-red-800 hover:text-white duration-300 transition-all border-gray-500 text-gray-500'} href={'extensions-and-restoration'}>Extensions and Restoration</Link>
             </ul>
         </motion.div>
     );
