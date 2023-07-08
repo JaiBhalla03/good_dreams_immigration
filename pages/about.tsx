@@ -81,16 +81,7 @@ const About = () => {
                            initial={'hidden'}
                            className={'text-[1rem] md:text-[1.3rem] font-normal text-gray-800'}
                        >
-                           Good Dreams Immigration Solutions Inc. is a trustworthy organization providing immigration services across the globe. We are committed
-                           to providing honest and result-oriented immigration services to all our clients from Canada and overseas. Blue Sphere specializes in LMIA
-                           applications, skilled worker Permanent residency applications, Family class sponsorships, Super-visa for parents and grandparents, Home
-                           Child Care Provider Program, Business visa, and Student visa applications in Canada. We serve our clients with customized step-by-step
-                           immigration guidance to ease their immigration transition. Every client has different needs and our competent RCIC consultant works with
-                           each client and provides professional guidance using their extensive knowledge and experience of immigration law. RCIC is recognized by
-                           the Government of Canada and Sandeep Singh Khangura is a member in good standing with the College of Immigration and Citizenship
-                           Consultants (CICC). Blue Sphere Immigration Services have over 8 years of client relationship-building experience at varied professional
-                           levels in Canada. We are dedicated to helping the clients in achieving their immigration goals and attain the best results.
-                           All the clients will be served from knocking on our door till they successfully achieve their goal in Canada.
+                           A reliable company offering immigration services all over the world is Good Dreams Immigration Solutions Inc. We are dedicated to offering all of our clients from Canada and outside authentic and goal-oriented immigration services. Applications for LMIA, skilled worker permanent residency, family class sponsorships, Super-visas for parents and grandparents, the Home Child Care Provider Programme, business visas, and student visas are among the areas of expertise of Good Dreams in Canada. To make the immigration transfer easier for our clients, we offer personalised step-by-step immigration help. Every client is unique, and each is worked with by a skilled RCIC consultant who uses their in-depth understanding of immigration law to provide expert counsel. Sushil Sharma is a member in good standing of the College of Immigration and Citizenship Consultants (CICC) and RCIC is acknowledged by the Government of Canada. Good Dreams Immigration Services has more than 8 years of experience in Canada creating client relationships at various professional levels. We are committed to assisting clients in realising their immigration objectives and obtaining the finest outcomes. From the moment a client knocks on our door until they successfully accomplish their goal in Canada, they will all be looked after.
                        </motion.p>
                    </div>
                    <motion.div

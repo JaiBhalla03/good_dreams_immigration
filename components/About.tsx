@@ -48,13 +48,7 @@ const About = () => {
                        initial={'hidden'}
                        className={'text-[1rem] md:text-[1.2rem] font-normal text-gray-800'}
                    >
-                       Good Dreams Immigration Solutions Inc. is a trustworthy organization providing immigration services across the globe. We are
-                       committed to provide honest and result-oriented immigration services to all our clients from Canada and overseas. Blue Sphere
-                       specializes in LMIA applications, skilled worker Permanent residency applications, Family class sponsorships, Super-visa for
-                       parents and grandparents, Home Child Care Provider Program, Business visa, and Student visa applications in Canada. We serve
-                       our clients with customized step-by-step immigration guidance to ease their immigration transition. Every client has different
-                       needs and our competent RCIC consultant works with each client and provides professional guidance using their extensive knowledge
-                       and experience of immigration law.
+                       A reliable company offering immigration services all over the world is Good Dreams Immigration Solutions Inc. We pledge to offer all of our clients from Canada and outside authentic and goal-oriented immigration services. Applications for LMIA, skilled worker permanent residency, family class sponsorships, Super-visas for parents and grandparents, the Home Child Care Provider Programme, business visas, and student visas are among the areas of expertise of Good Dreams Immigration in Canada. To make the immigration transfer easier for our clients, we offer personalised step-by-step immigration help. Every client is unique, and each is worked with by a skilled RCIC consultant who uses their in-depth understanding of immigration law to provide expert counsel.
                    </motion.p>
                </div>
                <motion.div

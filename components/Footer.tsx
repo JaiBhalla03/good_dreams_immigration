@@ -49,7 +49,7 @@ const Footer = () => {
                 <div className={'flex flex-col justify-around bg-gray-100 rounded-md shadow shadow-lg shadow-black py-4 px-8 mt-8 md:mt-0 w-full md:w-96'}>
                     <h1 className={'text-3xl font-bold'}>Contact Details</h1>
                     <div className={'text-lg border-b border-gray-500 pb-2 font-semibold'}>
-                        Sushil Sharma
+                        Sushil Sharma(RCIC)
                     </div>
                     <div onClick={handlePhoneClick} className={'cursor-pointer group flex gap-2 items-center text-lg border-b border-gray-500 pb-2'}>
                         <BsTelephoneFill size={20}/>

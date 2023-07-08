@@ -66,7 +66,7 @@ const WorkPermit = () => {
                                 <li>Can present any documentation necessary to confirm their right to enter Canada</li>
                             </ul>
                             <p>
-                                All cases are handled by competent immigration consultants. Blue Sphere believes in transparency and its value oriented consultancy.
+                                All cases are handled by competent immigration consultants. Good Dreams believes in transparency and its value oriented consultancy.
                             </p>
                         </div>
                     </div>

@@ -116,7 +116,7 @@ const Why = () => {
                                 className={'flex flex-col pb-2 md:pb-4 border-b border-gray-500'}>
                                 <h1 className={'text-gray-900 font-bold text-xl md:text-2xl'}>Customer Service</h1>
                                 <p className={'text-gray-800 font-semibold text-md md:text-xl'}>
-                                    Blue Sphere is dedicated to providing the most effective customer service and
+                                    Good Dreams is dedicated to providing the most effective customer service and
                                     satisfaction. We take the time to get to know each client and respect their specific values and interests.
                                 </p>
                             </motion.div>

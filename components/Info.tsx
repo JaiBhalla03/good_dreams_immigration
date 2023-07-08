@@ -2,6 +2,7 @@ import React from 'react';
 import {BsFillTelephoneFill} from "react-icons/bs";
 import {AiFillFacebook, AiFillInstagram, AiFillMail, AiOutlineTwitter} from "react-icons/ai";
 import {IoLogoWhatsapp} from "react-icons/io";
+import Link from "next/link";
 
 const Info = () => {
     const handlePhoneClick = () => {
@@ -24,7 +25,12 @@ const Info = () => {
                     <div className={'group-hover:underline group-hover:text-gray-900 duration-500 transition-all font-semibold'}>Info@gooddreamsimmigration.com</div>
                 </div>
                 <div className={'flex gap-2 items-center'}>
-                    <IoLogoWhatsapp size={18} className={'hover:scale-110 duration-300 transition-all hover:text-gray-900 cursor-pointer'}/>
+                    <a href="https://wa.me/+16046790308"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                    >
+                        <IoLogoWhatsapp size={18} className={'hover:scale-110 duration-300 transition-all hover:text-gray-900 cursor-pointer'}/>
+                    </a>
                     <AiFillFacebook size={18} className={'hover:scale-110 duration-300 transition-all hover:text-gray-900 cursor-pointer'}/>
                     <AiOutlineTwitter size={18} className={'hover:scale-110 duration-300 transition-all hover:text-gray-900 cursor-pointer'}/>
                     <AiFillInstagram size={18} className={'hover:scale-110 duration-300 transition-all hover:text-gray-900 cursor-pointer'}/>

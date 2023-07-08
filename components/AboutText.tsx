@@ -63,7 +63,7 @@ const AboutText = () => {
                     Mission:
                 </div>
                 <div className={'text-md md:text-lg font-thin'}>
-                    Our mission is to develop Blue Sphere as the client’s most value-oriented, reliable, one-stop immigration source all over the world.
+                    Our mission is to develop Good Dreams as the client’s most value-oriented, reliable, one-stop immigration source all over the world.
                     We work towards the success of our clients by providing professional immigration solutions to their needs. We make every effort to move our
                     clients successfully towards their Canadian destination goals.
                 </div>

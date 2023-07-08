@@ -38,7 +38,7 @@ const StudentVisa = () => {
                                 <li>Must have purchased a special Guaranteed Investment Certificate (GIC) from Scotia bank of $10000CAD to cover your living expenses and first year of your stay in Canada.</li>
                             </ul>
                             <p className={'text-lg'}>
-                                Blue Sphere Immigration Solutions will help you find a DLI and guide you while choosing the Course program based on your educational background and work experience.
+                                Good Dreams Immigration Solutions will help you find a DLI and guide you while choosing the Course program based on your educational background and work experience.
                             </p>
                         </div>
                         <div className={'text-lg flex flex-col gap-4'}>
@@ -51,7 +51,7 @@ const StudentVisa = () => {
                             <p className={'text-lg'}>
                                 The study permit is a document issued by Canadian Government to allow foreign nationals to study at designated learning institutions (DLIs) in Canada. Make sure you have all the documents you need before you apply. You should apply for Study permit before you travel to Canada.
                                 <br/><br/>
-                                Your study permit is not a visa. You may also need a visitor visa or an electronic travel authorization (eTA). Blue Sphere Immigration services will help you to get Study permit and Student visa.
+                                Your study permit is not a visa. You may also need a visitor visa or an electronic travel authorization (eTA). Good Dreams Immigration services will help you to get Study permit and Student visa.
                                 <br/><br/>
                                 We will help you get your study permit faster if you’re a legal resident in certain countries by applying online through the Student Direct Stream.
                             </p>

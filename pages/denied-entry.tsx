@@ -51,7 +51,7 @@ const DeniedEntry = () => {
                                 <li>Inadmissible family member</li>
                             </ul>
                             <p className={'text-lg'}>
-                                In such inadmissibility cases, foreign nationals need to prove the reasons of inadmissibility by providing detailed information about the visa application, complete paperwork to convince the visa officers. We, at Blue Sphere will help you to appeal your case with professional guidance according to Immigration Rules and Regulations.
+                                In such inadmissibility cases, foreign nationals need to prove the reasons of inadmissibility by providing detailed information about the visa application, complete paperwork to convince the visa officers. We, at Good Dreams we will help you to appeal your case with professional guidance according to Immigration Rules and Regulations.
                             </p>
                         </div>
                     </div>
